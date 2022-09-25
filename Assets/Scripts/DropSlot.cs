@@ -8,6 +8,7 @@ public class DropSlot : MonoBehaviour, IDropHandler
 {
     public GameObject item;
     public GameObject correctItem;
+    public Image paw;
 
     string originalParent;
     void Start()
@@ -24,6 +25,8 @@ public class DropSlot : MonoBehaviour, IDropHandler
             if(item.GetComponent<DragHandler>().getParent() == originalParent){
                 item.transform.SetParent(transform);
                 item.transform.position = transform.position;
+                if(paw !=null)
+                    paw.enabled = false;
              }
         }
     }
@@ -33,6 +36,8 @@ public class DropSlot : MonoBehaviour, IDropHandler
         if (item != null && item.transform.parent != transform)
         {
             item = null;
+            if(paw !=null)
+                paw.enabled = true;
         }
     }
 }
