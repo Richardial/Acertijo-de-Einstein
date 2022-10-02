@@ -30,9 +30,9 @@ public class Verify : MonoBehaviour
         }
 
         if(verificado){
-            txt.text = "Exacto, el pez pertenece al Aleman!";
+            txt.text = "En efecto, el pez es la mascota del Aleman!";
         }else{
-            txt.text = "Tu respuesta es incorrecta";
+            txt.text = "Tu respuesta es errónea";
         }
         show();
     }
