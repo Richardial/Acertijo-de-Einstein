@@ -13,7 +13,7 @@ public class DropSlot : MonoBehaviour, IDropHandler
     string originalParent;
     void Start()
     {
-        originalParent = correctItem.transform.parent.name;        
+        originalParent = correctItem.transform.parent.name;
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -25,19 +25,23 @@ public class DropSlot : MonoBehaviour, IDropHandler
             if(item.GetComponent<DragHandler>().getParent() == originalParent){
                 item.transform.SetParent(transform);
                 item.transform.position = transform.position;
-                if(paw !=null)
-                    paw.enabled = false;
+                paw.enabled = false;
              }
         }
     }
 
     void Update()
     {
+            
         if (item != null && item.transform.parent != transform)
         {
             item = null;
-            if(paw !=null)
-                paw.enabled = true;
+        
+        }
+        if(transform.childCount==0){
+            paw.enabled = true;
+        }else{
+            paw.enabled = false;
         }
     }
 }

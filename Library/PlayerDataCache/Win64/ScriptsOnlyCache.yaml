@@ -11,7 +11,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -68,43 +67,43 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1516}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 1620}
+      Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 1786}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 1864}
     - Class: 114
-      Script: {instanceID: 2244}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 2278}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 2902}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3484}
     - Class: 114
-      Script: {instanceID: 4204}
+      Script: {instanceID: 4230}
     - Class: 114
-      Script: {instanceID: 4458}
+      Script: {instanceID: 4484}
     - Class: 114
-      Script: {instanceID: 4862}
+      Script: {instanceID: 4888}
     - Class: 114
-      Script: {instanceID: 5202}
+      Script: {instanceID: 5228}
     - Class: 114
-      Script: {instanceID: 5260}
+      Script: {instanceID: 5286}
     - Class: 114
-      Script: {instanceID: 5736}
+      Script: {instanceID: 5762}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
